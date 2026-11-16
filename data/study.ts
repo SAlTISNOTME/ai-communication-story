@@ -69,9 +69,13 @@ export const studyData = {
     { label: 'Top management / leader / client support', value: 3.25 },
     { label: 'Societal infrastructure', value: 2.99 },
   ],
+  riskResponses: 2566,
   risks: [
-    { label: 'Varied staff competence', value: 3.44 }, { label: 'Unclear responsibilities', value: 3.14 },
-    { label: 'Shrinking salaries', value: 2.44 }, { label: 'Loss of identity', value: 2.39 },
-    { label: 'Job loss', value: 2.34 }, { label: 'Loss of core competences', value: 2.29 },
+    { label: 'Varied staff competence', value: 3.44, sd: 1.13 },
+    { label: 'Unclear responsibilities', value: 3.14, sd: 1.22 },
+    { label: 'Shrinking salaries', value: 2.44, sd: 1.18 },
+    { label: 'Loss of identity', value: 2.39, sd: 1.25 },
+    { label: 'Job loss', value: 2.34, sd: 1.20 },
+    { label: 'Loss of core competences', value: 2.29, sd: 1.20 },
   ],
 };
